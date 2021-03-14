@@ -36,7 +36,7 @@ end
 def list(songs)
   songs.each_with_index do |song, index|
     song_number = index + 1
-    puts song_number.to_s + "." + song + "\n"
+    puts song_number.to_s + "." + song
   end 
 end 
 
@@ -46,7 +46,8 @@ def play(songs)
   output_message = "Invalid input, please try again"
   binding.pry 
   songs.each_with_index do |song, index|
-    if input == song || input==index + 1
+    if input == song || input==index + 1]
+      binding.pry 
       output_message = "Playing #{song}"
     end 
   end 
