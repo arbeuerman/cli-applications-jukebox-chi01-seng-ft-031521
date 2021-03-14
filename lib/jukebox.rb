@@ -44,7 +44,6 @@ def play(songs)
   puts "Please enter a song number name or number:"
   input = get_user_input
   output_message = "Invalid input, please try again"
-  binding.pry 
   songs.each_with_index do |song, index|
     if input == song || input==index + 1]
       binding.pry 
