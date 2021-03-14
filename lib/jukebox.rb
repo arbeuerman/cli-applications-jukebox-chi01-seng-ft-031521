@@ -41,7 +41,7 @@ def list(songs)
 end 
 
 def play(songs)
-  puts "Please enter a song number name or number:"
+  puts "Please enter a song name or number:"
   input = get_user_input
   output_message = "Invalid input, please try again"
   songs.each_with_index do |song, index|
