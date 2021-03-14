@@ -36,7 +36,7 @@ end
 def list(songs)
   songs.each_with_index do |song, index|
     song_number = index + 1
-    puts song_number.to_s + "." + song
+    puts song_number.to_s + ". " + song
   end 
 end 
 
